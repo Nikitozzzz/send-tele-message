@@ -20,7 +20,7 @@ uv run python -m nuitka --standalone --onefile --output-filename=sendtelegram sr
 sendtelegram [параметры] message
 
 
-* **--config** - запуск с использованием конкретного конфигурационного файла
+* **--config** - запуск с использованием конкретного конфигурационного файла (если не указан, то в домашней директории создается папка .send-tele-message и файл config.json в ней)
 * **--set-token** - установка токена бота
 * **--add-chat** - запись в память id чата (короткое имя, chat_id)
 * **--remove-chat** - удалить чат из памяти
